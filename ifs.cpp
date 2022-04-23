@@ -30,3 +30,22 @@
 //   }
 //   return 0;
 // }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x, y;
+  cout << "Enter the first number: ";
+  cin >> x;
+  cout << "Enter the second number: ";
+  cin >> y;
+
+  if (x>10 && y>10) {
+    cout << 0 << endl;
+  } else {
+    cout << 1 << endl;
+  }
+
+  return 0;
+}
