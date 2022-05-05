@@ -1,5 +1,6 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// // #include <vector>
+// using namespace std;
 
 // int main() {
 //   //arrays go data type, name of array, number of elements in array,
@@ -16,8 +17,18 @@ using namespace std;
 //   //this works as it would in ruby, printing the third element
 // }
 
+// int main() {
+//   string words[5] = {"hello", "goodbye", "yes", "no", "test"};
+//   int wordsLength = sizeof(words)/sizeof(string);
+//   cout << wordsLength;
+// }
+
+#include <vector>
+
+#include <stdio.h>
+
+std::vector<int> v = {1,2,3,4};
+
 int main() {
-  string words[5] = {"hello", "goodbye", "yes", "no", "test"};
-  int wordsLength = sizeof(words)/sizeof(string);
-  cout << wordsLength;
+  printf("It worked!");
 }
