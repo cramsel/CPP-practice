@@ -1,6 +1,6 @@
-// #include <iostream>
-// // #include <vector>
-// using namespace std;
+#include <iostream>
+#include <vector>
+using namespace std;
 
 // int main() {
 //   //arrays go data type, name of array, number of elements in array,
@@ -23,12 +23,11 @@
 //   cout << wordsLength;
 // }
 
-#include <vector>
+// SO: Vectors CANNOT be printed as ruby arrays. You MUST call an
+// element in the vector in order for the code to compile
 
-#include <stdio.h>
-
-std::vector<int> v = {1,2,3,4};
 
 int main() {
-  printf("It worked!");
+  vector<string> words = {"yes", "no", "maybe"};
+  cout << words[0] << endl;
 }
