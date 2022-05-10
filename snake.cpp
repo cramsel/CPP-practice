@@ -2,7 +2,7 @@
 using namespace std;
 
 bool gameOver;
-const int width = 20;
+const int width = 40;
 const int height = 20;
 
 void Setup() {
@@ -10,14 +10,15 @@ void Setup() {
 }
 
 void Draw() {
-  for (int i = 0; i < height; i++) {
-    if (i == 0 || i == 19) {
+  system("clear");
+  for (int i = 0; i <= height; i++) {
+    if (i == 0 || i == height) {
       for (int j = 0; j <= width; j++) {
         cout << "#";
     }
     } else {
       for (int j = 0; j <= width; j++) {
-        if (j==0 || j==20) {
+        if (j==0 || j==width) {
           cout << "#";
         } else {
           cout << " ";
